@@ -1,0 +1,76 @@
+.displayFlex{
+  display: flex;
+}
+
+
+.Home-Page-Contents{
+  text-align: center;
+  margin: 2rem;
+  display: block;
+}
+
+.quiz-card-scroll{
+  /*height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;*/
+}
+
+.quiz-card{
+  background: #fff;
+  border-radius: 2px;  
+  text-align: left;
+  margin: 0 auto 3% auto;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.quiz-card:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05), 0 8px 8px rgba(0,0,0,0.12);
+}
+
+.quiz-items{
+  width: 85%;
+  padding-left: 1rem;
+}
+.quiz-items h3{
+  font-weight: 500;
+  font-size: 22px
+} 
+.quiz-items p{
+  font-size: 14px;
+  color: #3d5c5c;
+} 
+
+.start-button{
+  width: 15%;
+  margin: auto;
+}
+.start-button button{
+  box-shadow: 0 2px 2px 0 rgba(2, 177, 82, 0.14), 0 3px 1px -2px rgba(2, 177, 82, 0.2), 0 1px 5px 0 rgba(2, 177, 82, 0.12);
+  background-color: #02B152;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  margin: .3125rem 1px;
+  padding: 12px 30px;
+  position: relative;
+  font-size: 12px;
+  min-width: auto;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  border-radius: 3px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.Link-Btn{
+  text-decoration: none;
+}
